@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="./index.html">Home</a>
+            <a class="cabecalho__menu__link" href="./about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="./curriculo.html">Currículo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
     <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="destaque_titulo">com um Front-end de qualidade!</strong></h1>
         <p class="apresentacao__conteudo__texto">Olá! Sou Daniel Duve, estudante de <strong class="destaque_texto"> programação e músico.</strong> Trabalho junto com meu pai em <strong class="destaque_texto">marcenaria </strong>e participo da <strong class="destaque_texto">Orquestra de Câmara Municipal de Indaial.</strong></p>
         <div class="apresentacao__conteudo__botoes">
-            <a class="apresentacao__conteudo__botoes__style" href="https://www.instagram.com/danielfelicioduve/">Instagram</a>
-            <a class="apresentacao__conteudo__botoes__style" href="https://github.com/DanFD265">Github</a>
+            <h2 class="apresentacao__conteudo__botoes__subtitulo">Acesse minhas redes:</h2>
+            <a class="apresentacao__conteudo__botoes__style" href="https://www.instagram.com/danielfelicioduve/">
+                <img src="images/instagram.png" alt="logo instagram">
+                Instagram</a>
+            <a class="apresentacao__conteudo__botoes__style" href="https://github.com/DanFD265">
+                <img src="images/github.png" alt="logo github">
+                Github</a>
+            <a class="apresentacao__conteudo__botoes__style" href="https://www.chess.com/member/danfd265">
+                <img src="images/chess.png" alt="logo chess.com">
+                Chess.com</a>
         </div>
     </section>
-        <img src="./images/IMG-20240707-WA0000.jpeg" alt="foto minha no evento de dança">
+        <img class="foto__daniel" src="./images/IMG-20240707-WA0000.jpeg" alt="foto minha no evento de dança">
     </main>
-    <footer></footer>
+    <footer>
+        Desenvolvido por Daniel Duve
+    </footer>
 </body> 
 </html>
